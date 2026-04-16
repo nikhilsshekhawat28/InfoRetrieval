@@ -2,7 +2,7 @@
 
 **CS5130 | Northeastern University | Spring 2026**
 
-**Team:** Vishnu Purohitham, Nimish Poonekar, Nikhil Shekhawat, Rajarshi Dey
+**Team:** Vishnu Purohitham , Nimish Poonekar, Nikhil Shekhawat, Rajarshi Dey
 
 ---
 
