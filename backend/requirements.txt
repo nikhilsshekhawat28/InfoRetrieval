@@ -1,0 +1,37 @@
+# Web framework
+fastapi>=0.115.0
+uvicorn>=0.30.0
+python-multipart>=0.0.9
+pydantic>=2.9.0
+pydantic-settings>=2.5.0
+
+# ML / NLP
+torch>=2.6.0
+transformers>=4.46.0
+sentence-transformers>=3.0.0
+peft>=0.13.0
+Pillow>=10.0.0
+
+# OCR
+easyocr>=1.7.2
+pytesseract>=0.3.13
+
+# Web scraping
+trafilatura>=2.0.0
+playwright>=1.49.0
+
+# Document parsing
+PyPDF2>=3.0.1
+python-docx>=1.1.2
+
+# Vector DB
+chromadb>=0.5.0
+
+# Ingestion automation
+watchdog>=6.0.0
+
+# Utilities
+python-dotenv>=1.0.1
+aiofiles>=24.1.0
+httpx>=0.28.0
+numpy>=2.0.0

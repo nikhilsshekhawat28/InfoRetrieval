@@ -1,0 +1,27 @@
+version: "3.9"
+
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend:/app
+      - ./models:/models
+      - chroma_data:/app/chroma_data
+    environment:
+      - DEVICE=auto
+      - BLIP_MODEL_PATH=/models/blip_finetuned
+      - CHROMA_PERSIST_DIR=/app/chroma_data
+    restart: unless-stopped
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "5173:5173"
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+volumes:
+  chroma_data:
